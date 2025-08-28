@@ -1,0 +1,115 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# IDE
+.idea/
+*.swp
+*.swo
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Local development settings
+.env
+.env.local
+
+# Dataset and model files
+*.h5
+*.pkl
+*.model
+*.weights
+data/raw/
+data/normalized/
+models/saved/
+
+# Logs
+*.log
+logs/
+
+# Windows Zone.Identifier files
+*:Zone.Identifier
+
+# Project specific - Data and outputs (EXCLUDE EVERYTHING except specific files)
+data/
+!data/README.md
+!data/create_classification_csv.py
+
+# Outputs and experiment artifacts
+outputs/
+checkpoints/
+logs/
+wandb/
+runs/
+test_results/
+
+# All images and binary files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.npy
+*.svg
+*.ico
+
+# Model artifacts
+*.pth
+*.pt
+*.ckpt
+*.model
+*.weights
+*.h5
+*.pkl
+*.joblib
+
+# Analysis outputs and logs
+*.csv
+*.log
+*.log.*
+*.tsv
+
+# JSON files (exclude results/outputs, keep configs)
+**/outputs/**/*.json
+**/results/**/*.json
+**/logs/**/*.json
+training_results.json
+evaluation_results.json
+predictions_*.json
+batch_predictions_*.json
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/ 
